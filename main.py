@@ -14,8 +14,8 @@ d = int(secondValue) ** 2 - 4 * int(firstValue) * int(thirdValue)
 if d < 0:
     print("Уравнение не имеет корней")
 else:
-    root1 = ((int(secondValue) * (-1)) + (round(disk)**0.5)) / (2 * int(firstValue))
-    root2 = ((int(secondValue) * (-1)) - (round(disk)**0.5)) / (2 * int(firstValue))
+    root1 = ((int(secondValue) * (-1)) + (round(d)**0.5)) / (2 * int(firstValue))
+    root2 = ((int(secondValue) * (-1)) - (round(d)**0.5)) / (2 * int(firstValue))
 
     print("\nДействительные корни: ")
     if root1 > 0:
